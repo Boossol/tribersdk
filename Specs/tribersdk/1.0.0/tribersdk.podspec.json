@@ -7,7 +7,7 @@
   },
   "name": "tribersdk",
   "platforms": {
-    "ios": "7.0",
+    "ios": "7.0"
   },
   "preserve_paths": [
     "tribersdk.framework/*"
@@ -21,7 +21,7 @@
       "SystemConfiguration",
       "MobileCoreServices",
       "ImageIO",
-      "AudioToolbox",
+      "AudioToolbox"
     ]
   },
   "requires_arc": true,
