@@ -9,8 +9,12 @@
   "platforms": {
     "ios": "7.0"
   },
+  "preserve_paths": [
+    "tribersdk.framework/*"
+  ],
   "ios": {
-
+    "public_header_files": "./tribersdk.framework/Headers/*.h",
+    "vendored_frameworks": "./tribersdk.framework",
     "frameworks": [
       "CoreLocation",
       "MapKit",
@@ -18,10 +22,7 @@
       "MobileCoreServices",
       "ImageIO",
       "AudioToolbox"
-    ],
-    "source": {
-      "http": "http://127.0.0.1:8080/tribersdk.framework.zip"
-    },
+    ]
   },
   "requires_arc": true,
   "source": {
