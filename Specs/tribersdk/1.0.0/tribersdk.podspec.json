@@ -16,8 +16,8 @@
     "tribersdk.framework/*"
   ],
   "ios": {
-    "public_header_files": "./tribersdk.framework/Headers/*.h",
-    "vendored_frameworks": "./tribersdk.framework",
+    "public_header_files": "tribersdk.framework/Headers/*.h",
+    "vendored_frameworks": "tribersdk.framework",
     "frameworks": [
       "CoreLocation",
       "MapKit",
