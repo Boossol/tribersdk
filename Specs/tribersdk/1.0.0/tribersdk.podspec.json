@@ -1,6 +1,6 @@
 {
   "authors": "Boossol",
-  "homepage": "https://triberapp.co",
+  "homepage": "http://triberapp.co",
   "license": {
     "text": "See http://triberapp.co/terms-of-service",
     "type": "Commercial"
@@ -10,6 +10,7 @@
     "ios": "7.0"
   },
   "ios": {
+
     "frameworks": [
       "CoreLocation",
       "MapKit",
@@ -17,7 +18,10 @@
       "MobileCoreServices",
       "ImageIO",
       "AudioToolbox"
-    ]
+    ],
+    "source": {
+      "http": "http://127.0.0.1:8080/tribersdk.framework.zip"
+    },
   },
   "requires_arc": true,
   "source": {
