@@ -10,7 +10,7 @@
   },
   "name": "tribersdk",
   "platforms": {
-    "ios": "7.0"
+    "ios": "8.0"
   },
   "preserve_paths": [
     "tribersdk.framework/*"
