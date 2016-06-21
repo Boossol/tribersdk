@@ -16,6 +16,7 @@
     "tribersdk.framework/*"
   ],
   "ios": {
+    "source_files": "tribersdk.framework/Headers/*.h",
     "public_header_files": "tribersdk.framework/Headers/*.h",
     "vendored_frameworks": "tribersdk.framework",
     "frameworks": [
