@@ -1,0 +1,33 @@
+{
+  "authors": "Boossol",
+  "homepage": "https://events.triberapp.co",
+  "license": {
+    "text": "See http://triberapp.co/terms-of-service",
+    "type": "Commercial"
+  },
+  "name": "tribersdk",
+  "platforms": {
+    "ios": "7.0",
+  },
+  "preserve_paths": [
+    "tribersdk.framework/*"
+  ],
+  "ios": {
+    "public_header_files": "./tribersdk.framework/Headers/*.h",
+    "vendored_frameworks": "./tribersdk.framework",
+    "frameworks": [
+      "CoreLocation",
+      "MapKit",
+      "SystemConfiguration",
+      "MobileCoreServices",
+      "ImageIO",
+      "AudioToolbox",
+    ]
+  },
+  "requires_arc": true,
+  "source": {
+    "http": "http://127.0.0.1:8080/tribersdk.framework.zip"
+  },
+  "summary": "Triber SDK for Triber",
+  "version": "1.0.0"
+}
