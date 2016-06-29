@@ -8,6 +8,7 @@ target 'my_target' do
   pod 'tribersdk'
 end
 ```
+***
 
 
 ### Setup the SDK in your AppDelegate's `application:didFinishLaunchingWithOptions` method:
@@ -23,6 +24,7 @@ theme.textColor = [UIColor blackColor];
 [TriberSDK setTheme:theme];
 ```
 See below for a list of theme options
+***
 
 
 ### Show the SDK's meeting points view
@@ -31,7 +33,7 @@ See below for a list of theme options
 ```
 with :
 - navigationController : Navigation controller that will contain TriberSDK's view stack
-
+***
 
 #### Theme options:
 
