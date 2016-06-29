@@ -27,7 +27,32 @@ See below for a list of theme options
 
 ***
 
-### Show the SDK's meeting points view
+### Add configuration to your project's Info.plist:
+```xml
+  <key>NSLocationAlwaysUsageDescription</key>
+  <string>Triber a besoin de votre position !</string>
+```
+```xml
+  <key>NSAppTransportSecurity</key>
+  <dict>
+    <key>NSAllowsArbitraryLoads</key>
+    <false/>
+    <key>NSExceptionDomains</key>
+    <dict>
+      <key>triberapp.co</key>
+      <dict>
+        <key>NSIncludesSubdomains</key>
+        <true/>
+        <key>NSTemporaryExceptionAllowsInsecureHTTPLoads</key>
+        <true/>
+        <key>NSTemporaryExceptionMinimumTLSVersion</key>
+        <string>TLSv1.1</string>
+      </dict>
+    </dict>
+  </dict>
+```
+
+### Show the SDK's meeting points view when you need to
 ```ruby
 [TriberSDK showMeetingPoints:navigationController];
 ```
