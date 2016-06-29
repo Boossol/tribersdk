@@ -38,12 +38,14 @@ with :
 #### Theme options:
 
 ##### Titles and item titles font/color:
-UIFont* titlesFont;
-UIColor* titlesColor;
+`UIFont* titlesFont;`
+`UIColor* titlesColor;`
 
 ##### Text block font/color
+```objc
 UIFont* textFont;
 UIColor* textColor;
+```
 
 ##### Compass view arrow color
 UIColor* compassArrowColor;
