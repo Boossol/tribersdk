@@ -9,9 +9,12 @@ target 'my_target' do
 end
 ```
 
+
 ### Setup the SDK in your AppDelegate's `application:didFinishLaunchingWithOptions` method:
+```ruby
 [TriberSDK insertDelegateForApplication:application];
 [TriberSDK setAppKey:@"your_triber_sdk_token"];
+```
 
 #### Optional: Setup the theme
 ```ruby
@@ -21,12 +24,14 @@ theme.textColor = [UIColor blackColor];
 ```
 See below for a list of theme options
 
+
 ### Show the SDK's meeting points view
 ```ruby
 [TriberSDK showMeetingPoints:navigationController];
 ```
 with :
 - navigationController : Navigation controller that will contain TriberSDK's view stack
+
 
 #### Theme options:
 
