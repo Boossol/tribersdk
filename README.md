@@ -8,8 +8,8 @@ target 'my_target' do
   pod 'tribersdk'
 end
 ```
-***
 
+***
 
 ### Setup the SDK in your AppDelegate's `application:didFinishLaunchingWithOptions` method:
 ```ruby
@@ -24,8 +24,8 @@ theme.textColor = [UIColor blackColor];
 [TriberSDK setTheme:theme];
 ```
 See below for a list of theme options
-***
 
+***
 
 ### Show the SDK's meeting points view
 ```ruby
@@ -33,12 +33,13 @@ See below for a list of theme options
 ```
 with :
 - navigationController : Navigation controller that will contain TriberSDK's view stack
+
 ***
 
 #### Theme options:
 
 ##### Titles and item titles font/color:
-```objc
+```objective-c
 UIFont* titlesFont;
 UIColor* titlesColor;
 ```
@@ -50,32 +51,44 @@ UIColor* textColor;
 ```
 
 ##### Compass view arrow color
-```obj-c
+```objective-c
 UIColor* compassArrowColor;
 ```
 
 ##### Compass view distance text color
+```objective-c
 UIColor* distanceTextColor;
+```
 
 ##### Background image
+```objective-c
 NSString* backgroundImage;
+```
 
 ##### Meeting points list header
+```objective-c
 UIColor* meetingPointsHeaderColor;
 UIColor* meetingPointsHeaderTextColor;
+```
 
 ##### Meeting points list items
+```objective-c
 UIColor* meetingPointItemBackgroundColor;
 UIColor* meetingPointItemTitleColor;
 UIColor* meetingPointItemSubtitleColor;
+```
 
 ##### Welcome screen
+```objective-c
 NSString* welcomeScreenLogo;
 TriberLogoColor welcomeScreenTriberLogoColor;
+```
 
 ##### "Powered by Triber" header
+```objective-c
 UIColor* poweredByTriberTextColor;
 UIColor* poweredByTriberBackgroundColor;
 TriberLogoColor poweredByTriberLogoColor;
+```
 
 ## Happy Tribin' ! :)
