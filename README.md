@@ -11,7 +11,7 @@ end
 
 ***
 
-### Setup the SDK in your AppDelegate's `application:WillFinishLaunchingWithOptions:` method:
+### Setup the SDK in your AppDelegate's `application:willFinishLaunchingWithOptions:` method:
 ```objective-c
 [TriberSDK insertDelegateForApplication:application];
 [TriberSDK setAppKey:@"your_triber_sdk_token"];
