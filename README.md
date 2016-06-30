@@ -11,14 +11,14 @@ end
 
 ***
 
-### Setup the SDK in your AppDelegate's `application:didFinishLaunchingWithOptions` method:
-```ruby
+### Setup the SDK in your AppDelegate's `application:WillFinishLaunchingWithOptions:` method:
+```objective-c
 [TriberSDK insertDelegateForApplication:application];
 [TriberSDK setAppKey:@"your_triber_sdk_token"];
 ```
 
 #### Optional: Setup the theme
-```ruby
+```objective-c
 TriberSDKTheme* theme = [[TriberSDKTheme alloc] init];
 theme.textColor = [UIColor blackColor];
 [TriberSDK setTheme:theme];
@@ -53,7 +53,7 @@ See below for a list of theme options
 ```
 
 ### Show the SDK's meeting points view when you need to
-```ruby
+```objective-c
 [TriberSDK showMeetingPoints:navigationController];
 ```
 with :
